@@ -5,7 +5,7 @@ const ganso = async (msg) => {
 const previsao = async (msg) => {
     const cidade = msg.content.slice(10,msg.content.lenght);
     console.log(cidade);
-    const url = `api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=0712fcb57b8738cbabae9a541dbfa773&units=metric&lang=pt_br`;
+    const url = ``; // removido estava com token
     console.log(url);
     
     axios.get(url)
